@@ -1,0 +1,196 @@
+header
+{
+	
+  font-family: Segoe UI, sans-serif;
+  color:#4e4e4e;
+  line-height: 22px;	
+}
+
+body {
+  text-align: justify;
+  background: url("../Pics/bg.jpg") no-repeat center fixed;
+
+}
+
+p{
+	font-family: Segoe UI, sans-serif;
+	color: black;
+	font-size: 12pt;
+	}
+
+h3
+{
+	text-align: center;
+	font-family: Segoe UI, sans-serif;
+	font-size: 400;
+	color: #3057C0;
+}
+
+
+h2
+{	
+	text-align: center;
+	font-family: Segoe UI, sans-serif;
+	font-weight: 400;
+	color: #0155A8;
+}
+
+ul
+{list-style-type: disc;}
+
+h1
+{
+	font-family: Segoe UI, sans-serif;
+}
+
+#menu li{
+	display: inline;
+	list-style: none;
+	margin: 10px;
+	margin-left:13%;
+}
+
+#onglets a{
+	
+	font-family: Segoe UI;
+	display: inline-block;
+	width: 100px;/*largeur du bloc*/
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #0B4C5F;
+	background-color: rgba(255, 255, 255, 0.5);/*réduit l'opacité*/
+	text-align: center;	
+	border-radius: 4px; /*met les bordures arrondies*/
+	}
+
+#textblockpre{
+	float:left;
+	margin-left: 15%;
+	display: inside;
+	width: 300px;
+	height: 320px;/*taille du bloc*/
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+#textblockpics{
+	display: block;
+	width: 750px; /*largeur du bloc*/
+	height: 520px;/*hauteur du bloc*/
+	margin-left: 38%;
+	margin-right: 20%;
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#entete{
+	display: inline-block;
+	margin-left:15%;
+	width: 1107px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#activitcon{
+	margin-left: 15%;
+	margin-right: 13%;
+	display: inside;
+	height: 1450px;
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+#activitinfo{
+	float:right;
+	margin-right: 13%;
+	display: inside;
+	width: 300px;
+	height: 430px;/*taille du bloc*/
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+#activitinfo2{
+	float:right;
+	margin-right: 13%;
+	display: inside;
+	width: 300px;
+	height: 560px;/*taille du bloc*/
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+#activitinfo3{
+	float:right;
+	margin-right: 13%;
+	display: inside;
+	width: 300px;
+	height: 515px;/*taille du bloc*/
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+#activitinfo4{
+	float:right;
+	margin-right: 13%;
+	display: inside;
+	width: 300px;
+	height: 600px;/*taille du bloc*/
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+#activitinfo5{
+	float:right;
+	margin-right: 13%;
+	display: inside;
+	width: 300px;
+	height: 725px;/*taille du bloc*/
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+#maps{
+	float : left;
+	margin-left: 15%;
+	display: inside;
+	width: 750px;
+	height: 600px;/*taille du bloc*/
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}
+
+#title{
+	margin-left: 15%;
+	margin-right: 13%;
+	display: inside;
+	background-color: white;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+}

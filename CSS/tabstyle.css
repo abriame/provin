@@ -1,0 +1,32 @@
+table
+{
+	margin-top: 20px;
+	margin: auto;
+    border-collapse: collapse;
+    color: black;
+    font-family: Segoe UI; 
+}
+
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+	width: 250px;
+	height: 30px;
+	;
+}
+
+#Zonetab{
+	margin: auto;
+	margin-left: 15%;
+	display: inside;
+	width: 1105px;
+	height: 450px;/*taille du bloc*/
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+}
+
+#Tab{
+	margin: auto;
+	width: 750px;
+	height: 250px;
+}
