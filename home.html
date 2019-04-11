@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Provins</title>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>		
+		<style>
+			.mySlides {display:none;}
+		</style>
+	</head>
+
+	<body>     
+		<header>			
+			<div id="entete">
+				<img src="Pics/EntetePvs.png">
+			</div>
+			<div id="menu">
+			 <ul id="onglets">
+				<li class="active"><a href="home.html">Accueil</a></li>
+				<li><a href="Content/activites.html">Activités</a></li>
+				<li><a href="Content/sports.html">Sports</a></li>
+				<li><a href="Content/tarifs.html">Tarifs</a></li>
+			 </ul>
+			</div>
+		
+		</header>
+		
+			<section>
+				<div id="textblockpre">
+					<div class="absolute">
+						<h2>Présentation</h2>
+						<article>
+							<p>Cette association a but non lucratif (Loi 1901) qui existe depuis 2003; vous propose un ensemble d'activités destinées à permettre à l'ensemble des Provinois et des habitants des villages limitrophes de se rencontrer de partager des passions communes et de pratiquer des sports (de loisirs ou de compétition) ensemble.</p>						
+						</article>
+					</div>
+				</div>
+			</section>	
+			
+			<section>
+				<div id="textblockpics">
+					<div class="absolute">
+						<h2> Provins en photos :  </h2>
+							<div style="max-width:800px" align= center id="Imgblockpics">
+								<img class="mySlides" src="Pics/SliderInd/p1.jpg" style="width:85%">
+  								<img class="mySlides" src="Pics/SliderInd/p2.jpg" style="width:85%">
+  								<img class="mySlides" src="Pics/SliderInd/p3.jpg" style="width:85%">
+  								<img class="mySlides" src="Pics/SliderInd/p4.jpg" style="width:85%">
+  								<img class="mySlides" src="Pics/SliderInd/p5.jpg" style="width:85%">
+							</div>
+
+							<script>
+								var myIndex = 0;
+								carousel();
+
+								function carousel() {
+								    var i;
+								    var x = document.getElementsByClassName("mySlides");
+								    for (i = 0; i < x.length; i++) {
+								       x[i].style.display = "none";  
+								    }
+								    myIndex++;
+								    if (myIndex > x.length) {myIndex = 1}    
+								    x[myIndex-1].style.display = "block";  
+								    setTimeout(carousel, 1700); // Change image every 1.7 seconds
+								}
+							</script>
+					</div>
+				</div>
+			</section>
+
+
+	</body>
+
+	
+</html>
